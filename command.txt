@@ -1,0 +1,3 @@
+python -m car_agent.main --config car_agent/config/car1.yaml
+
+D:\HANXU\Anaconda3\envs\rl\python.exe fleet_controller.py

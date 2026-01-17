@@ -1,0 +1,27 @@
+car_id: car2
+
+net:
+  cmd_listen: "0.0.0.0:31001"
+  telemetry_peer: "192.168.0.100:32001"
+#  mgmt_listen: "0.0.0.0:33001"
+
+
+loop:
+  control_hz: 50
+  telemetry_hz: 20
+
+chassis:
+  serial_port: "/dev/ttyCH343USB0"
+  baudrate: 115200
+  control_hz: 50
+
+safety:
+  cmd_timeout_s: 0.2
+  v_max: 0.8
+  w_max: 1.5
+
+sensors:
+  uwb:
+    enabled: true
+    serial_port: "/dev/ttyCH343USB1"
+    baudrate: 921600
